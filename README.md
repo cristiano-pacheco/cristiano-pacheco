@@ -12,4 +12,4 @@ When not coding, I'm probably reading tech books or playing Call of Duty 🎮
 </table>
 </center>  
 
-[![My Skills](https://skillicons.dev/icons?i=aws,go,php,docker,git,linux,md,mongodb,mysql,postgres,php)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=go,gcp,aws,git,linux,md,mongodb,mysql,postgres,php,docker,kubernetes,sentry,prometheus,terraform)](https://skillicons.dev)
