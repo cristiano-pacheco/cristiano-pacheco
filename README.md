@@ -4,7 +4,6 @@ I'm a Senior Go Engineer passionate about distributed systems, modular architect
 
 When not coding, I'm probably reading tech books or playing Call of Duty 🎮.
 
-<!--
 <center>
 <table>
     <tr>
@@ -15,4 +14,4 @@ When not coding, I'm probably reading tech books or playing Call of Duty 🎮.
 </center>  
 
 [![My Skills](https://skillicons.dev/icons?i=go,gcp,aws,git,linux,md,mongodb,mysql,postgres,php,docker,kubernetes,sentry,prometheus,terraform)](https://skillicons.dev)
--->
+
