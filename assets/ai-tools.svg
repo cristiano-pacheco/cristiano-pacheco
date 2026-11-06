@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="ai-tools. My daily AI toolset.">
+<title>ai-tools. The reusable skills and tools I use every day with AI coding agents.</title>
+<rect x="0.5" y="0.5" width="1199" height="219" rx="18" fill="#0B1218" stroke="#34584F"/>
+<rect x="1" y="28" width="3" height="164" rx="1.5" fill="#83F0CB"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="34" y="39" fill="#83F0CB" font-family="monospace" font-size="13">MY DAILY AI TOOLSET</text>
+<text x="34" y="89" fill="#EAF2F5" font-size="38" font-weight="700">ai-tools</text>
+<text x="34" y="131" fill="#EAF2F5" font-size="23">I use coding agents every day.</text>
+<text x="34" y="164" fill="#91A7B5" font-size="18">Reusable skills for planning, implementation, and code review.</text>
+<text x="34" y="199" fill="#83F0CB" font-family="monospace" font-size="12">EXPLORE THE TOOLSET ↗</text>
+</g>
+<rect x="816" y="28" width="350" height="164" rx="12" fill="#111D26" stroke="#243642"/>
+<g font-family="monospace" font-size="16">
+<text x="840" y="61" fill="#83F0CB">ai-tools/</text>
+<path d="M850 77V163M850 91H868M850 125H868M850 159H868" fill="none" stroke="#34584F" stroke-width="2"/>
+<text x="883" y="96" fill="#EAF2F5">skills/engineering/</text>
+<text x="883" y="130" fill="#91A7B5">docs/</text>
+<text x="883" y="164" fill="#91A7B5">pi/extensions/</text>
+</g></svg>
