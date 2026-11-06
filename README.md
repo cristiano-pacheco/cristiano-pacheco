@@ -1,29 +1,34 @@
-<p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Cristiano Pacheco. I design and operate distributed systems. Architecture, data consistency, and production reliability. AI enthusiast and daily coding agent user." />
-</p>
+# Cristiano Pacheco
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/cristiano-pacheco/">LinkedIn</a>
-  &nbsp; / &nbsp;
-  <a href="https://github.com/cristiano-pacheco?tab=repositories">Repositories</a>
-  &nbsp; / &nbsp;
-  São Paulo, Brazil
-</p>
+I work on backend systems in Go. My interests include distributed systems, software architecture, and developer tools.
 
-<p align="center">I build backends for payments and commerce, where data consistency and failure handling matter.<br />
-I'm an AI enthusiast and a heavy user of coding agents for planning, implementation, testing, and review.</p>
+## Selected projects
 
-<img src="./assets/engineering.svg" width="100%" alt="How I approach engineering. I choose system boundaries around domain ownership, consistency, and deployment needs. I define transaction boundaries, retries, and event delivery guarantees. I measure performance under documented workloads and resource limits. I hold a high bar for code quality through automated tests, static analysis, code review, and documented tradeoffs." />
+### [go-shortner](https://github.com/cristiano-pacheco/go-shortner)
 
-### 02 / Selected work
+A URL shortener with separate processes for redirects and link management.
 
-<a href="https://github.com/cristiano-pacheco/ai-tools"><img src="./assets/ai-tools.svg" width="100%" alt="ai-tools. The reusable skills and tools I use every day with AI coding agents for planning, implementation and code review." /></a>
+- Pagination totals use transactional PostgreSQL counters instead of full-table counts.
+- Redis lookups fall back to PostgreSQL. Cache entries can remain stale for up to 60 seconds after a change.
+- Load tests record throughput, latency, resource limits, and unsuccessful runs.
 
-<a href="https://github.com/cristiano-pacheco/go-online-auction#engineering-challenges--solutions"><img src="./assets/auction.svg" width="49%" alt="go-online-auction. Concurrent bids, domain invariants, database locking and post-commit events. Read the design decisions and event delivery tradeoffs." /></a>
-<a href="https://github.com/cristiano-pacheco/go-shortner/blob/main/docs/performance.md"><img src="./assets/shortner.svg" width="49%" alt="go-shortner. Observed 27,179 redirects per second in a published closed-loop benchmark with tracing off and a combined 64 MiB memory limit for Go servers. Dependencies use additional resources. Read the methodology and limits." /></a>
+[Design decisions](https://github.com/cristiano-pacheco/go-shortner/blob/main/docs/architecture.md) · [Benchmarks](https://github.com/cristiano-pacheco/go-shortner/blob/main/docs/performance.md)
 
-<img src="./assets/stack.svg" width="100%" alt="Go, REST, gRPC. Ports &amp; Adapters, Clean Architecture, DDD, Modular Monolith, Microservices. PostgreSQL, MySQL, Redis, MongoDB, Elasticsearch. Kafka, RabbitMQ. AWS, GCP, Kubernetes, Docker, Terraform, ArgoCD, GitHub Actions. OpenTelemetry, Prometheus, Grafana." />
+### [go-online-auction](https://github.com/cristiano-pacheco/go-online-auction)
+
+A real-time auction system with concurrent bidding and WebSocket updates.
+
+- Row locks, version checks, and domain rules handle competing bids.
+- Events are sent after commit through Redis Pub/Sub. Delivery is best effort; the documentation discusses the gap and the outbox alternative.
+
+[Concurrency and events](https://github.com/cristiano-pacheco/go-online-auction#engineering-challenges--solutions) · [Architecture](https://github.com/cristiano-pacheco/go-online-auction#architecture-diagrams)
+
+### [ai-tools](https://github.com/cristiano-pacheco/ai-tools)
+
+Skills, conventions, and tools I use daily with coding agents for planning, implementation, testing, and review. Includes Go architecture guides and reviews against repository standards and specifications.
+
+[Skills](https://github.com/cristiano-pacheco/ai-tools/tree/main/skills/engineering) · [Go architecture guide](https://github.com/cristiano-pacheco/ai-tools/blob/main/docs/go-modular-architecture.md)
 
 ---
 
-<p align="center"><sub>Tech books, side projects, and the occasional Call of Duty match.</sub></p>
+[LinkedIn](https://www.linkedin.com/in/cristiano-pacheco/) · [Repositories](https://github.com/cristiano-pacheco?tab=repositories) · São Paulo, Brazil
